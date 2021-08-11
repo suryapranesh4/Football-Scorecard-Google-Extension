@@ -1,0 +1,50 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    --cotetriangle: 200px;
+    /* r = 100 / tan(30) = 57.7 */
+    --translationDistance: 57px;
+    margin : 0;
+}
+  
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background: rgb(36, 36, 33);
+    width: 640px;
+    height: 640px;
+}
+
+.competition{
+    font-size: 16px;
+}
+
+.matchData{
+    font-size: 12px;
+}
+
+.title{
+    font-size: 16px;
+}
+
+.gameDate{
+    font-size: 14px;
+}
+
+.scoreline{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.scorers{
+    font-size: 10px;
+    text-align : left;
+    margin-left : 16px;
+}
