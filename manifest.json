@@ -7,7 +7,7 @@
     "icons": { "128": "football.png" },
     "browser_action": {
       "default_icon": "football.png",
-      "default_popup": "popup.html"
+      "default_popup": "index.html"
     },
     "permissions": ["activeTab"]
 }
